@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://taupe-taiyaki-3b9130.netlify.app", 
+    origin: "https://papaya-brioche-eb3bfd.netlify.app", 
     methods: "GET,POST,PUT,DELETE",
     credentials: true, 
   })
