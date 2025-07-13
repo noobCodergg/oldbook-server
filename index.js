@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://amazing-gnome-4d7f2e.netlify.app", 
+    origin: "https://taupe-taiyaki-3b9130.netlify.app", 
     methods: "GET,POST,PUT,DELETE",
     credentials: true, 
   })
