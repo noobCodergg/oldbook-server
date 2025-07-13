@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173", 
+    origin: "https://glittery-pudding-a04bf4.netlify.app/", 
     methods: "GET,POST,PUT,DELETE",
     credentials: true, 
   })
