@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://sparkling-babka-186d3c.netlify.app/", 
+    origin: "https://sparkling-babka-186d3c.netlify.app", 
     methods: "GET,POST,PUT,DELETE",
     credentials: true, 
   })
